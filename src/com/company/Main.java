@@ -19,10 +19,10 @@ public class Main {
         ej9();
         ej10();
         ej11();
-        ej12();
+        ej12();*/
         ej13();
         ej14();
-        ej16();*/
+        ej16();
         ej17();
     }
 
@@ -278,15 +278,15 @@ public class Main {
         longitud de la hipotenusa según el teorema de Pitágoras.*/
 
         double cat1, cat2, hipo;
-        Scanner aux, aux2;
+        Scanner aux;
 
         System.out.println("\nEjercicio 13:");
         System.out.println("Ingrese la longitud del primer cateto:\t");
         aux= new Scanner(System.in);
         cat1=aux.nextDouble();
         System.out.println("Ingrese la longitud del segundo cateto:\t");
-        aux2= new Scanner(System.in);
-        cat2=aux2.nextDouble();
+        aux= new Scanner(System.in);
+        cat2=aux.nextDouble();
 
         hipo=Math.sqrt((cat1*cat1)+(cat2*cat2));
 
